@@ -103,7 +103,6 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  background: #2f303a;
   color: var(--text-color);
 }
 .first-section {
@@ -208,6 +207,7 @@ header li {
   background-color: #2f303a;
   padding: 200px 452px 200px 452px;
   margin: 0 auto;
+  background-image: url("/images/start.jpg");
 }
 .head-text {
   font-weight: 900;
@@ -326,4 +326,59 @@ header,
 nav,
 main {
   margin: 0 auto;
+}
+.icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-color);
+}
+.icon-email {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.icon-email:hover {
+  fill: var(--niebo-color);
+}
+.icon-smartphone {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.icon-smartphone:hover {
+  fill: var(--niebo-color);
+}
+
+.image-container:hover {
+  box-shadow: 1px 4px 6px 0px #00000029;
+  box-shadow: 0px 4px 4px 0px #0000000f;
+  box-shadow: 0px 1px 1px 0px #0000001f;
+  cursor: pointer;
+}
+.button-click:hover,
+:focus {
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+.section-client {
+  text-align: center;
+}
+.logo {
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.logo-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.logo:hover {
+  cursor: pointer;
+  fill: #2196f3;
 }
