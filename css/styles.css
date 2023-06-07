@@ -63,7 +63,7 @@ a:focus {
   font-weight: 500;
   font-size: 14px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   padding: 24px 15px 25px 15px;
   letter-spacing: 0.02em;
@@ -86,6 +86,7 @@ a:focus {
 .nav-manu-second {
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
 }
 .agencja-pad {
   padding-left: 93px;
@@ -381,4 +382,40 @@ main {
 .logo:hover {
   cursor: pointer;
   fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+.logo-client {
+  width: 170px;
+  height: 92px;
+}
+.social {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: space-evenly;
+}
+.icon-social {
+  width: 44px;
+  height: 44px;
+  fill: var(--title-color);
+  scale: 0.5;
+}
+
+.icon-social:hover {
+  fill: var(--text-color);
+  background-color: var(--niebo-color);
+  cursor: pointer;
+  border-radius: 50%;
+}
+.lore-icons {
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lore-icon {
+  width: 70px;
+  height: 70px;
 }
