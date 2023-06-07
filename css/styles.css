@@ -328,11 +328,6 @@ nav,
 main {
   margin: 0 auto;
 }
-.icon-footer {
-  width: 20px;
-  height: 20px;
-  fill: var(--text-color);
-}
 .icon-email {
   height: 12px;
   width: 16px;
@@ -351,7 +346,6 @@ main {
 .icon-smartphone:hover {
   fill: var(--niebo-color);
 }
-
 .image-container:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
   box-shadow: 0px 4px 4px 0px #0000000f;
@@ -363,6 +357,19 @@ main {
   box-shadow: 0px 2px 2px 0px #0000001f;
   box-shadow: 0px 1px 2px 0px #00000014;
   box-shadow: 0px 3px 1px 0px #0000001a;
+}
+.lore-icons {
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lore-icon {
+  width: 70px;
+  height: 70px;
 }
 .section-client {
   text-align: center;
@@ -388,34 +395,67 @@ main {
   width: 170px;
   height: 92px;
 }
-.social {
+.foter {
   display: flex;
-  padding-bottom: 30px;
-  justify-content: space-evenly;
 }
-.icon-social {
-  width: 44px;
+.foter h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin: 0;
+  color: var(--text-color);
+}
+.footer-social {
+  margin-left: 70px;
+  margin-top: 72px;
+}
+.footer-social li {
+  display: inline-flex;
+  margin-top: 20px;
+  gap: 10px;
   height: 44px;
-  fill: var(--title-color);
-  scale: 0.5;
+  width: 44px;
+  border-radius: 50%;
+  background-color: var(--title-color);
+  align-items: center;
+  justify-content: center;
 }
-
-.icon-social:hover {
+.icon-foter:hover {
   fill: var(--text-color);
   background-color: var(--niebo-color);
   cursor: pointer;
-  border-radius: 50%;
 }
-.lore-icons {
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
+.icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-color);
+}
+.social {
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.social li {
   display: flex;
+  height: 44px;
+  margin: auto;
+  border-radius: 50%;
+  width: 44px;
   justify-content: center;
   align-items: center;
+  fill: var(--title-color);
 }
-.lore-icon {
-  width: 70px;
-  height: 70px;
+.icon-social {
+  height: 20px;
+  width: 20px;
+}
+.icon-social1:hover {
+  fill: var(--text-color);
+  background-color: var(--niebo-color);
+  cursor: pointer;
 }
